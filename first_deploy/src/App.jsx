@@ -57,7 +57,18 @@ alert('choose a valid option')
 
 
 return (
+	
 <div className="app-root">
+	{/* <video
+        className="bg-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/first_deploy/first_deploy/public/videos/under-the-starry-sky.3840x2160.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
   <div className="frame">
 	{!erased && !congrats && (
 	  <>
@@ -92,7 +103,7 @@ return (
 	  </div>
 	)}
 
-	<footer className="bottom-bar">Made by</footer>
+	{/* <footer className="bottom-bar">Made by</footer> */}
   </div>
 
   {showModal && (

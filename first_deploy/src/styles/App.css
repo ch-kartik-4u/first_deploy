@@ -1,8 +1,11 @@
 :root{
---bg: #0f0f10;
+
+/* --bg: #ff5cde; */
 --panel: #151515;
 --accent: #f5f5f5;
 --muted: #9a9a9a;
+background-image: url(./bbbbf22b1079756c8c6b2d733cce529a.jpg);
+background-size: cover;
 }
 
 
@@ -18,20 +21,54 @@ color:var(--accent);
 
 
 .app-root{display:flex;align-items:center;justify-content:center;padding:30px}
-.frame{
-width:90vw;max-width:1100px;height:70vh;border-radius:10px;padding:24px;border:2px solid #3a3a3a;position:relative;
+/* .frame{
+width:100vw;max-width:1100px;height:100vh;border-radius:10px;padding:24px;border:2px solid #3a3a3a;position:relative;
 background:linear-gradient(180deg,#101010, #0b0b0b);
-}
-
+} */
+.bg-video {
+  position: fixed;          /* ya absolute, need ke hisaab se
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* pura screen fill karega */
+  z-index: -1;              /* content ke peeche rahega */
+} */
 
 .controls{display:flex;justify-content:center;margin-top:18px}
-.i-read{background:transparent;border:2px solid #6b6b6b;padding:12px 22px;border-radius:8px;color:var(--accent);cursor:pointer}
+.i-read{background:transparent;
+    border:0px solid #6b6b6b;
+    padding:12px 62px;
+    border-radius:8px;
+    margin-left: 245px;
+    color:var(--accent);
+    cursor:pointer}
 .i-read:disabled{opacity:0.5;cursor:not-allowed}
-.i-read.active{background:linear-gradient(90deg,#ffd166,#fca311);border-color:#ffb703;color:#111}
+.i-read.active{background:linear-gradient(90deg,#ffd166,#fca311);
+    border-color:#ffb703;
+    color:#111}
 
-
-.bottom-bar{position:absolute;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);padding:12px 18px;border-top:1px solid #333;text-align:left;color:var(--muted)}
+/* 
+.bottom-bar{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(42, 160, 238, 0.4);
+    padding:12px 18px;
+    border-top:1px solid #333;
+    text-align:center;
+    color:var(--muted)
+} */
 
 
 .erased-placeholder{display:flex;align-items:center;justify-content:center;height:calc(100% - 60px);font-size:18px;color:var(--muted)}
-.congrats{display:flex;flex-direction:column;align-items:center;justify-content:center;height:calc(100% - 60px)}
+.congrats{
+    font-size: 50px;
+    
+    font-family: 'sans-serif';
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:calc(100% - 60px)}

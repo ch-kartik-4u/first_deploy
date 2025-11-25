@@ -6,8 +6,8 @@
 }
 .book{
     position:relative;
-    width:380px;
-    height:420px;
+    width:680px;
+    height:620px;
     perspective:1400px;
     display:flex;
     align-items:center;
@@ -20,7 +20,7 @@
     bottom:30px;
     width:45%;
     border-radius:8px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.7);
+    box-shadow:0 10px 30px rgba(255, 46, 46, 0.7);
     overflow:hidden;
     display:flex;
     align-items:center;
@@ -28,11 +28,11 @@
 }
 .cover.left{
     left:0;
-    background:linear-gradient(180deg,#2b2b2b,#222)
+    background:linear-gradient(180deg,#ffe5d3   ,#ffe2f0)
 }
 .cover.right{
     right:0;
-    background:linear-gradient(180deg,#1a1a1a,#111)
+    background:linear-gradient(180deg,#ffe5d3,#ffe2f0)
 }
 
 .sketch{
@@ -47,7 +47,7 @@
     z-index:5;
     width:48%;
     height:80%;
-    background:linear-gradient(180deg,#fff,#f7f7f7);
+    background:linear-gradient(180deg,#fff,#0ee4f0);
     border-radius:6px;
     display:flex;
     align-items:center;
@@ -55,19 +55,20 @@
     cursor:pointer;
     padding:18px;
     text-align:center;
-    box-shadow:0 8px 20px rgba(0,0,0,0.6)
+    box-shadow:0 8px 20px rgba(247, 231, 10, 0.6)
 }
 .pages .front-placeholder h2{
     letter-spacing:6px;
-    color:#333;
+    color:#9e0303;
     margin:0
+    
 }
 .open-btn{
-    margin-top:18px;
-    padding:8px 14px;
+    margin-top:28px;
+    padding:15px 44px;
     border-radius:8px;
     border:2px solid #222;background:#fff;
-    cursor:pointer
+    cursor:pointer;
 }
 
 

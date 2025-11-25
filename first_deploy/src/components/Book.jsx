@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-export default function Book({ sketchUrl, curPage, onOpen, onPageClick, pageText }){
+export default function Book({ curPage, onOpen, onPageClick, pageText }){
 return (
 <div className="book-area">
 <div className={`book ${curPage !== null ? 'open' : ''}`}>
 {/* left cover */}
 <div className="cover left">
-<img src={sketchUrl} alt="sketch" className="sketch" />
+
 </div>
 
 
