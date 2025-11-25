@@ -1,0 +1,5 @@
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;z-index:999}
+.modal{background:#121212;border-radius:10px;padding:20px 26px;border:1px solid #333;min-width:320px;text-align:center}
+.modal h3{margin:0 0 12px 0}
+.modal-actions{display:flex;gap:12px;justify-content:center}
+.modal-actions button{padding:10px 16px;border-radius:8px;border:2px solid #444;background:transparent;color:var(--accent);cursor:pointer}
